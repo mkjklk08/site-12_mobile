@@ -1,0 +1,455 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 750px;
+    width: 1500px;
+    background-image: url(./background\ _img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 100px 0px 80px;
+    color: white;
+}
+.header h1 {
+    margin-top: 28px;
+}
+
+.header, .menu {
+    display: flex;
+    justify-content: space-between;
+}
+.header .menu p {
+    margin-right:  60px;
+    margin-top: 40px;
+}
+
+.header .dotes_menu {
+    margin-top: 0px;
+}
+
+/* body .logos start */
+
+
+.body {
+    padding: 10px 90px;
+}
+.body .logos {
+    display: grid;
+    grid-template-columns: 400px 400px 200px;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    margin-left: 150px;
+}
+
+.body .logos .adage p {
+    width: 200px;
+    color: rgb(90, 90, 90);
+    margin-left: 18px;
+    margin-top: 60px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.body .logos .webby_awards p {
+    width: 200px;
+    color: rgb(90, 90, 90);
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.body .logos .campaign p {
+    width: 200px;
+    color: rgb(90, 90, 90);
+    margin-left: 18px;
+    margin-top: 60px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.body .logos .campaign img {
+    margin-top: 20px;
+}
+
+.body .logos  img {
+    width: 200px;
+}
+
+hr {
+    border: 1px solid rgb(59, 59, 59);
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+
+.body .logos .adage:hover img{
+    width: 210px;
+}
+
+.adage:hover {
+    text-decoration: underline;
+}
+
+.body .logos .webby_awards:hover img{
+    width: 210px;
+}
+
+.webby_awards:hover {
+    text-decoration: underline;
+}
+
+.body .logos .campaign:hover img{
+    width: 210px;
+}
+
+.campaign:hover {
+    text-decoration: underline;
+}
+
+/* body .info start */
+
+.body .info .header_info {
+    display: grid;
+    grid-template-columns: 780px 500px;
+}
+
+.body .info .header_info .cont_left p {
+    width: 650px;
+    font-size: 40px;
+}
+
+.body .info .header_info .cont_left button {
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    padding: 7px 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.body .info .header_info .cont_left button:hover {
+    background-color: black;
+    border: 5px solid pink;
+    color: white;
+}
+
+.body .info .header_info .cont_right p {
+    font-size: 210px;
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+/* body .info .informetion start */
+
+.body .info .information {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    margin-top: 80px;
+}
+
+.body .info .information img {
+    width: 420px;
+    height: 550px;
+}
+
+.body .info .information h1 {
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.body .info .information p {
+    width: 250px;
+    margin-top: 10px;
+    color: rgb(59, 59, 59);
+    margin-bottom: 200px;
+}
+
+.body .info .information .photo_1:hover h1 {
+    text-decoration: underline;
+}
+
+.body .info .information .photo_2:hover h1 {
+    text-decoration: underline;
+}
+
+.body .info .information .photo_3:hover h1 {
+    text-decoration: underline;
+}
+
+.hr_without {
+    margin: 0px;
+}
+/* body .number start */
+
+.body .number {
+    display: grid;
+    grid-template-columns: 1300px 200px;
+    margin-top: 15px;
+}
+
+.body .number .box_number {
+    display: grid;
+    grid-template-columns: 400px 100px;
+    color: rgb(71, 71, 71);
+}
+
+.body .number img {
+    width: 50px;
+}
+
+/* body .companies start */
+
+.body .companies h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.body .companies .box_companies {
+    display: grid;
+    grid-template-columns: 450px 450px 400px;
+    margin-bottom: 100px;
+}
+
+.body .companies .box_companies .hr_comp {
+    width: 20px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.body .companies .box_companies img {
+    width: 150px;
+}
+
+.body .companies .box_companies p {
+    width: 350px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.body .companies .box_companies .google h3 {
+    font-size: 22px;
+    margin-top: 70px;
+}
+
+.body .companies .box_companies .kfc h3 {
+    font-size: 22px;
+    margin-top: 30px;
+}
+.body .companies .box_companies .wilson h3 {
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.hr_quar{
+    margin-bottom: 150px;
+}
+
+/* body .quality start */
+
+.body .quality {
+    display: grid;
+    grid-template-columns: 750px 300px;
+    margin-bottom: 160px;
+}
+
+.body .quality .info_quality p img {
+    width: 50px;
+}
+
+.body .quality .info_quality .help {
+    font-size: 85px;
+    width: 600px;
+    font-weight: 600;
+}
+
+.body .quality .info_quality .agency {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.body .quality .info_quality .agency span {
+    font-weight: 600;
+}
+
+.body .quality .info_quality button {
+    margin-top: 60px;
+    padding: 7px 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.body .quality .info_quality button:hover {
+    background-color: black;
+    border: 5px solid pink;
+    color: white;
+}
+
+.body .quality .photo_quality img {
+    width: 550px;
+    height: 620px;
+}
+
+/* body .stuff start */
+
+.body .stuff .header_stuff {
+    display: grid;
+    grid-template-columns: 1200px 100px;
+    margin-bottom: 50px;
+}
+
+.body .stuff .header_stuff h1 {
+    font-size: 40px;
+    width: 200px;
+}
+
+.body .stuff .header_stuff button {
+    width: 120px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.body .stuff .header_stuff button:hover {
+    background-color: black;
+    border: 5px solid pink;
+    color: white;
+}
+
+/* presses start */
+
+.body .stuff .stuff_hr {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.body .stuff .press-1, .press-2, .press-3, .press-4, .press-5, .press-6, .press-7, .press-8, .press-9, .press-10, .press-11, .press-12 {
+    display: grid;
+    grid-template-columns: 450px 600px;
+}
+
+.body .stuff .time{
+    font-size: 15px;
+}
+
+.body .stuff .time span {
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+
+.body .stuff .header_press {
+    font-size: 40px;
+    font-weight: 500;
+    width: 700px;
+}
+
+.body .stuff .info_press {
+    display: grid;
+    grid-template-rows: 300px 100px;
+}
+
+.body .stuff .press-7 .info_press {
+    display: grid;
+    grid-template-rows: 255px 100px;
+}
+
+.body .stuff .press-9 .info_press {
+    display: grid;
+    grid-template-rows: 255px 100px;
+}
+
+.body .stuff img {
+    width: 430px;
+}
+
+.body .stuff .header_press:hover {
+    text-decoration: underline;
+}
+
+/* footer started */
+.footer {
+    width: 100%;
+}
+
+.footer .footer_cont-1 {
+    background-color: rgb(59, 59, 59);
+    margin-top: 150px;
+    padding: 100px 80px 70px 80px;
+    color: white;
+}
+
+.footer .footer_cont-1 .cont_top {
+    display: grid;
+    grid-template-columns: 700px 500px;
+    margin-bottom: 100px;
+}
+
+.footer .footer_cont-1 .cont_top .top_contleft p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer .footer_cont-1 .cont_top .top_contright p {
+    width: 450px;
+    font-size: 30px;
+}
+
+.footer .footer_cont-1 .cont_top .top_contright p a {
+    color: white;
+}
+
+.footer .footer_cont-1 .cont_bottom .bt_contleft .header_bt {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer .footer_cont-1 .cont_bottom .bt_contleft .bt_email .white {
+    border: 1px solid white;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.footer .footer_cont-1 .cont_bottom {
+    display: grid;
+    grid-template-columns: 650px 400px;
+    margin-bottom: 80px;
+}
+
+.footer .footer_cont-1 .cont_bottom .bt_contright {
+    display: grid;
+    grid-template-columns: 200px 250px 200px;
+}
+
+.footer .footer_cont-1 .cont_bottom .bt_contright h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer .footer_cont-1 .cont_bottom .bt_contright p {
+    margin-top: 5px;
+}
+
+.footer .footer_cont-1 .cont_bottom .bt_contright p:hover {
+    text-decoration: underline;
+}
+
+.footer .footer_cont-2 {
+    background-color: rgb(30, 30, 30);
+    display: grid;
+    grid-template-columns: 550px 680px 200px;
+    font-size: 10px;
+    color: rgb(92, 92, 92);
+    padding: 20px 70px;
+    font-weight: 600;
+}
+

@@ -1,0 +1,213 @@
+@media screen and (max-width:450px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+        width: 350px;
+    }
+    .header {
+        height: 950px;
+        width: 660px;
+        padding: 0px;
+        padding-left: 60px;
+
+    }
+    .header .menu {
+        display: none;
+    }
+    .header .dotes_menu {
+        margin-right: 40px;
+    }
+    .body{
+        padding: 0px;
+        padding: 10px;
+    }
+
+    hr {
+        width: 650px;
+    }
+    .body .logos {
+        display: flex;
+        flex-direction: column;
+        margin-left: 220px;
+    }
+
+    .body .logos img {
+        width: 250px;
+    }
+    .body .logos .adage p {
+        margin: 0px;
+        width: 200px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+    .body .logos .webby_awards p {
+        margin: 0px;
+        width: 200px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+    .body .logos .campaign p {
+        margin: 0px;
+        width: 200px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+    .body .info .header_info {
+        display: flex;
+        flex-direction: column;
+    }
+    .body .info .header_info .cont_left p {
+        width: 640px;
+    }
+    .body .info .header_info .cont_left button {
+        width: 300px;
+        font-size: 20px;
+    }
+    .body .info .information  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body .info .information img {
+        width: 630px;
+        height: 800px;
+        margin-left: 0px;
+    }
+    .body .info .information h1 {
+        font-size: 40px;
+    }
+    .body .info .information p {
+        font-size: 30px;
+        width: 500px;
+        margin-bottom: 50px;
+    }
+    .body .number {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+    
+    .body .number .box_number {
+        display: grid;
+        grid-template-columns: 300px 50px;
+        color: rgb(71, 71, 71);
+        font-size: 30px;
+    }
+
+    .body .companies .box_companies {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        padding-left: 40px;
+    }
+    .body .companies .box_companies img {
+        width: 250px;
+    }
+    .body .companies .box_companies p {
+        width: 550px;
+        margin-top: 15px;
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+    
+    .body .companies .box_companies .google h3 {
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .body .companies .box_companies .kfc h3 {
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .body .companies .box_companies .wilson h3 {
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .body .quality {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 160px;
+    }
+    .body .quality .photo_quality img {
+        width: 630px;
+        margin-bottom: 30px;
+    }
+
+    .body .quality .info_quality button {
+        width: 300px;
+        padding: 20px ;
+        font-size: 30px;
+    }
+    .body .stuff .press-1, .press-2, .press-3, .press-4, .press-5, .press-6, .press-7, .press-8, .press-9, .press-10, .press-11, .press-12 {
+        display: flex;
+        flex-direction: column;
+    }
+    .body .stuff img {
+        width: 600px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .body .stuff .info_press {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .body .stuff .header_press {
+        margin-bottom: 50px;
+        width: 600px;
+    }
+    .footer .footer_cont-1 {
+        background-color: rgb(59, 59, 59);
+        color: white;
+        width: 650px;
+    }
+    .footer .footer_cont-1 .cont_top {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        width: 500px;
+    }
+    .footer .footer_cont-1 .cont_bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer_cont-1 .cont_bottom .bt_contright {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer_cont-1 .cont_bottom .bt_contright h1 {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    .footer .footer_cont-1 .cont_bottom .bt_contright p {
+        margin-top: 5px;
+        font-size: 30px;
+        width: 500px;
+    }
+    .footer .footer_cont-2 {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        padding: 20px 20px;
+        font-weight: 600;
+        color: rgb(93, 93, 93);
+        width: 650px;
+    }
+    .body .stuff .header_stuff {
+        display: flex;
+        flex-direction: column;
+    }
+    .body .stuff .header_stuff button {
+        width: 300px;
+        height: 65px;
+        border: 1px solid black;
+        border-radius: 50px;
+        font-weight: 600;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+}
